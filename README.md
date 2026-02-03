@@ -23,3 +23,14 @@ The goal is to provide **documentation-first systems** that are reproducible and
 3. **Tool-Agnostic**: Logic is transferable to Notion, MS365, or other platforms.
 4. **Predictive**: Systems integrate simple risk evaluation and prioritization.
 5. **Portfolio-Proof**: Each file demonstrates capability for freelance or client work.
+
+6. # Hardened Nginx Codespace
+
+This project demonstrates:
+
+- Non-root Docker containers
+- Minimal base image (`alpine`)
+- Healthchecks and resource limits via Docker Compose
+- Automated security scanning via GitHub Actions
+- Port 8080 used to avoid requiring root privileges
+
